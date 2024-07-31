@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+:root {
+  --margin-size: 15px; /* Define the margin size as a CSS variable */
+}
+
+* {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%; /* Ensure the html and body elements take up the full height */
+  margin: 0; /* Remove default margin from body */
+  padding: 0; /* Remove default padding from body */
+  overflow: hidden; /* Hide overflow to prevent scrolling */
+}
+
+.content p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.bg {
+  height: calc(100vh - 2 * var(--margin-size));
+  margin: var(--margin-size);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.btn-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.btn {
+  margin: 5px;
+  padding: 5px 15px;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 15px;
+
+  box-shadow: inset 0px 1px 0px 0px #707070;
+  background: linear-gradient(to bottom, #ffffff 5%, #ececec 100%);
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  /* padding:6px 24px; */
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #c7c7c7 5%, #ffffff 100%);
+  background-color: #0061a7;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
