@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/button-color-react/static/css/main.b15298d1.css",
+    "main.js": "/button-color-react/static/js/main.7488f490.js",
+    "static/js/453.3a743a4e.chunk.js": "/button-color-react/static/js/453.3a743a4e.chunk.js",
+    "index.html": "/button-color-react/index.html",
+    "main.b15298d1.css.map": "/button-color-react/static/css/main.b15298d1.css.map",
+    "main.7488f490.js.map": "/button-color-react/static/js/main.7488f490.js.map",
+    "453.3a743a4e.chunk.js.map": "/button-color-react/static/js/453.3a743a4e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b15298d1.css",
+    "static/js/main.7488f490.js"
+  ]
+}
